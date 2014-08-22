@@ -15,6 +15,7 @@
       <value n="oracle.mds.internal.dt.ide.migrator.MDSConfigMigratorHelper" v="11.1.1.0.5313"/>
    </hash>
    <list n="listOfChildren">
+      <hash><url n="URL" path="NotificationService/NotificationService.jpr"/></hash>
       <hash><url n="URL" path="PrintServiceModel/PrintServiceModel.jpr"/></hash>
       <hash><url n="URL" path="samplegit.jpr"/></hash>
       <hash><url n="URL" path="ScanningVC/ScanningVC.jpr"/></hash>
