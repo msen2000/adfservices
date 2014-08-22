@@ -13,6 +13,6 @@
    </hash>
    <list n="listOfChildren">
       <hash><url n="URL" path="samplegit.jpr"/></hash>
-      <hash><url n="URL" path="../ViewController/ViewController.jpr"/></hash>
+      <hash><url n="URL" path="ScanningVC/ScanningVC.jpr"/></hash>
    </list>
 </jws:workspace>
