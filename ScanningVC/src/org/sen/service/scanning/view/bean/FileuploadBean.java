@@ -12,6 +12,8 @@ import javax.faces.event.ValueChangeEvent;
 
 import org.apache.myfaces.trinidad.model.UploadedFile;
 
+import org.sen.service.vs.model.FileScanningService;
+
 public class FileuploadBean {
     public FileuploadBean() {
     }
@@ -51,7 +53,7 @@ public class FileuploadBean {
         try {
             this.copy(file.getInputStream(), new FileOutputStream(destinationFile));
             System.out.println("copy done....");
-            boolean validated = true;//FileScaningService.validateAttachmentFile_win(fileName);
+            boolean validated = FileScanningService.validateAttachmentFile_win(fileName);
             if (validated == false) {                
                 FacesContext.getCurrentInstance().addMessage(null, new FacesMessage(FacesMessage.SEVERITY_ERROR, "File has virus", null)); 
                 return ;       

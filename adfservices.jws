@@ -15,5 +15,6 @@
       <hash><url n="URL" path="PrintServiceModel/PrintServiceModel.jpr"/></hash>
       <hash><url n="URL" path="samplegit.jpr"/></hash>
       <hash><url n="URL" path="ScanningVC/ScanningVC.jpr"/></hash>
+      <hash><url n="URL" path="VirusScanningService/VirusScanningService.jpr"/></hash>
    </list>
 </jws:workspace>
