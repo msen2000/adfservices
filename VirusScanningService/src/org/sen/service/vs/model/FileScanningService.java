@@ -189,5 +189,8 @@ public class FileScanningService {
         System.out.println("file scan is done : the result is : true !");
         return true;
     }
-    
-    }
+
+    public static void main(String[] args) {
+        System.out.println("main()");
+    }    
+}
