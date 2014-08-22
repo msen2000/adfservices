@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\McAfee\VirusScan Enterprise\x64\Scan64" C:\Temp\adf\*.txt /WINMEM /ADL /SECURE /RPTERR /RPTALL /AUTOEXIT /UINONE /REPORT C:\Temp\scan\scanreport.txt
